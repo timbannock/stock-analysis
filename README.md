@@ -25,6 +25,7 @@ For i = 2 To RowCount
           tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
 ```
 Furthermore, after looking into roughly half of the activities, I found none of them seemed to provide examples anything close to what we were doing in the challenge; in fact, half of those didn't have any instructions in them whatsoever, so they were useless for that aspect. Notably, some of them were still interesting and helpful overall in understanding VBA, but they didn't seem to align with the more involved parts of the challenge.
+
 Combined with the focus of both Tue and Thu classes being more on getting folks setup with Git access, I don't feel like we covered nearly enough material that prepared me for the actions needed in the Challenge. Perhaps that's not an issue of Challenge itself, nor the data we are analyzing within it, but it really undermined my confidence in tackling this Challenge from the start.
 - *What are some limitations of this dataset?*
   - Only looking at 2 years of data on 12 stocks really doesn't provide much in the way of understanding a long-term investment in any of these individual stocks. While it's fairly obvious that analyzing even more stocks would be great, I think it's possibly more important to understand the long-term trends for these individual stocks, so we'd want to go back many more years.
